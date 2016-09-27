@@ -29,5 +29,27 @@ wget -nv --directory-prefix=$i --content-disposition --header='Accept: applicati
 wget -nv --directory-prefix=$i --content-disposition --header='Accept: application/pdf' http://researchbank.swinburne.edu.au/vital/access/services/Download/swin:$i/SOURCE18
 wget -nv --directory-prefix=$i --content-disposition --header='Accept: application/pdf' http://researchbank.swinburne.edu.au/vital/access/services/Download/swin:$i/SOURCE19
 wget -nv --directory-prefix=$i --content-disposition --header='Accept: application/pdf' http://researchbank.swinburne.edu.au/vital/access/services/Download/swin:$i/SOURCE20
+
+wget -nv --directory-prefix=$i --content-disposition --header='Accept: application/pdf' http://researchbank.swinburne.edu.au/vital/access/services/Download/swin:$i/BOOK1
+wget -nv --directory-prefix=$i --content-disposition --header='Accept: application/pdf' http://researchbank.swinburne.edu.au/vital/access/services/Download/swin:$i/SEG1
+wget -nv --directory-prefix=$i --content-disposition --header='Accept: application/pdf' http://researchbank.swinburne.edu.au/vital/access/services/Download/swin:$i/SEG2
+wget -nv --directory-prefix=$i --content-disposition --header='Accept: application/pdf' http://researchbank.swinburne.edu.au/vital/access/services/Download/swin:$i/SEG3
+wget -nv --directory-prefix=$i --content-disposition --header='Accept: application/pdf' http://researchbank.swinburne.edu.au/vital/access/services/Download/swin:$i/SEG4
+wget -nv --directory-prefix=$i --content-disposition --header='Accept: application/pdf' http://researchbank.swinburne.edu.au/vital/access/services/Download/swin:$i/SEG5
+wget -nv --directory-prefix=$i --content-disposition --header='Accept: application/pdf' http://researchbank.swinburne.edu.au/vital/access/services/Download/swin:$i/SEG6
+wget -nv --directory-prefix=$i --content-disposition --header='Accept: application/pdf' http://researchbank.swinburne.edu.au/vital/access/services/Download/swin:$i/SEG7
+wget -nv --directory-prefix=$i --content-disposition --header='Accept: application/pdf' http://researchbank.swinburne.edu.au/vital/access/services/Download/swin:$i/SEG8
+wget -nv --directory-prefix=$i --content-disposition --header='Accept: application/pdf' http://researchbank.swinburne.edu.au/vital/access/services/Download/swin:$i/SEG9
+wget -nv --directory-prefix=$i --content-disposition --header='Accept: application/pdf' http://researchbank.swinburne.edu.au/vital/access/services/Download/swin:$i/SG1
+wget -nv --directory-prefix=$i --content-disposition --header='Accept: application/pdf' http://researchbank.swinburne.edu.au/vital/access/services/Download/swin:$i/SG2
+wget -nv --directory-prefix=$i --content-disposition --header='Accept: application/pdf' http://researchbank.swinburne.edu.au/vital/access/services/Download/swin:$i/SG3
+wget -nv --directory-prefix=$i --content-disposition --header='Accept: application/pdf' http://researchbank.swinburne.edu.au/vital/access/services/Download/swin:$i/SG4
+wget -nv --directory-prefix=$i --content-disposition --header='Accept: application/pdf' http://researchbank.swinburne.edu.au/vital/access/services/Download/swin:$i/SG5
+wget -nv --directory-prefix=$i --content-disposition --header='Accept: application/pdf' http://researchbank.swinburne.edu.au/vital/access/services/Download/swin:$i/SG6
+wget -nv --directory-prefix=$i --content-disposition --header='Accept: application/pdf' http://researchbank.swinburne.edu.au/vital/access/services/Download/swin:$i/SG7
+wget -nv --directory-prefix=$i --content-disposition --header='Accept: application/pdf' http://researchbank.swinburne.edu.au/vital/access/services/Download/swin:$i/SG8
+
+
+
 i=$[$i+1]
 done
